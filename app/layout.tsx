@@ -1,6 +1,7 @@
 // app/layout.tsx
 import "./globals.css";
 import type { Metadata } from "next";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Masamune Kimura, MD, PhD",
@@ -16,6 +17,7 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body>
+        {/* -- Text Header (existing) -- */}
         <header className="site-header">
           <div className="site-header-inner">
             <div className="site-brand">
@@ -32,7 +34,34 @@ export default function RootLayout({
           </div>
         </header>
 
-        <main className="site-main">{children}</main>
+        {/* --- Header Image (ここを追加) --- */}
+        <div className="header-image">
+          <Image
+            src="/header.jpg"
+            alt="Header Image"
+            fill
+            style={{ objectFit: "cover" }}
+            priority
+          />
+        </div>
+
+        <main className="site-main">
+          {/* --- Profile image をここに入れる --- */}
+          <div className="profile-wrapper">
+            <Image
+              src="/profile.jpg"
+              alt="Profile Image"
+              width={140}
+              height={140}
+              className="profile-image"
+            />
+            <h1 className="profile-name">
+              <strong>木村 正夢嶺</strong>
+            </h1>
+          </div>
+
+          {children}
+        </main>
 
         <footer className="site-footer">
           © {new Date().getFullYear()} Masamune Kimura
