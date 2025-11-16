@@ -36,7 +36,7 @@ export default function RootLayout({
 
         {/* --- Header Image (ここを追加) --- */}
         <div className="header-image">
-          <Image
+          <img
             src="/header.jpg"
             alt="Header Image"
             fill
@@ -48,7 +48,7 @@ export default function RootLayout({
         <main className="site-main">
           {/* --- Profile image をここに入れる --- */}
           <div className="profile-wrapper">
-            <Image
+            <img
               src="/profile.jpg"
               alt="Profile Image"
               width={140}
