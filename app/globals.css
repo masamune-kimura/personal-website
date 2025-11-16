@@ -152,7 +152,7 @@ a {
 .header-image-img {
   object-fit: cover;
   /* 上からXX%あたりを基準にするイメージ（値はお好みで）*/
-  object-position: center 70%;
+  object-position: center 50%;
 }
 
 /* プロフィール＋名前エリア */

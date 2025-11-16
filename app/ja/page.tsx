@@ -7,7 +7,7 @@ export default function JapaneseHome() {
         <p>
           木村 正夢嶺（Masamune Kimura）です。脳神経内科医として主にてんかん診療と
           脳波（特に頭蓋内脳波）の解析を専門としています。臨床現場での経験と研究を通じて、
-          患者さん一人ひとりに最適な治療選択を届けることを目指しています。
+          ”治す脳神経内科医、治らなくても幸せにする医師"を目指しています。
         </p>
       </section>
 
@@ -34,7 +34,7 @@ export default function JapaneseHome() {
         <ul>
           <li>2009年　洛南高等学校 Ⅲ類 卒業</li>
           <li>2009年　京都府立医科大学 医学部 医学科</li>
-          <li>2011年 9–11月　TAFE Queensland Gold Coast, English Language Intensive Courses for Overseas Students</li>
+          <li>2011年　TAFE Queensland Gold Coast, English Language Intensive Courses for Overseas Students</li>
           <li>2016年　近江八幡市立総合医療センター </li>
           <li>2018年　神戸市立医療センター中央市民病院 神経内科</li>
           <li>2022年　神戸大学医学部附属病院 脳神経内科 医員</li>
@@ -69,7 +69,7 @@ export default function JapaneseHome() {
         <h2>研究テーマ</h2>
         <ul>
           <li>
-            スペクトルスロープを用いた興奮・抑制バランス（E/I）と発作起始域（SOZ）の関連解析
+            スペクトログラムを用いた興奮・抑制バランス（E/I）と発作起始域の関連解析
           </li>
           <li>
             頭蓋内脳波・高周波活動・CCEP を統合したてんかん焦点推定アルゴリズムの開発
