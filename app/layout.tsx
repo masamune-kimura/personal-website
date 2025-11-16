@@ -40,7 +40,7 @@ export default function RootLayout({
             src="/header.jpg"
             alt="Header Image"
             fill
-            style={{ objectFit: "cover" }}
+            className="header-image-img"
             priority
           />
         </div>
