@@ -142,9 +142,9 @@ a {
 .header-image {
   position: relative;
   width: 100%;
-  height: 260px;        /* ヘッダー画像の縦の高さ。お好みで調整可 */
+  height: 300px;        /* ヘッダー画像の縦の高さ。お好みで調整可 */
   overflow: hidden;
-  margin-bottom: 4rem;  /* 下のコンテンツとの間隔 */
+  margin-bottom: 2rem;  /* 下のコンテンツとの間隔 */
   z-index: 0;
 }
 
@@ -152,7 +152,7 @@ a {
 .header-image-img {
   object-fit: cover;
   /* 上からXX%あたりを基準にするイメージ（値はお好みで）*/
-  object-position: center 50%;
+  object-position: center 70%;
 }
 
 /* プロフィール＋名前エリア */
