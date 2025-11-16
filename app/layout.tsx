@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Masamune Kimura, MD, PhD",
+  title: "Masamune Kimura, MD",
   description:
     "Personal website of Masamune Kimura, neurologist and epileptologist specializing in intracranial EEG and clinical neurophysiology.",
 };
