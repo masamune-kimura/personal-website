@@ -152,7 +152,7 @@ a {
 .header-image-img {
   object-fit: cover;
   /* 上からXX%あたりを基準にするイメージ（値はお好みで）*/
-  object-position: center 50%;
+  object-position: center 60%;
 }
 
 /* プロフィール＋名前エリア */
@@ -163,7 +163,7 @@ a {
 
   /* 本文と揃うようにセンター寄せ＆横幅制限 */
   max-width: 800px;       /* site-main と合わせたいサイズに */
-  margin: -70px auto 2rem; /* マイナスmarginでヘッダーに少し重ねるのがポイント */
+  margin: -70px 0 2rem; /* マイナスmarginでヘッダーに少し重ねるのがポイント */
   padding: 0 1rem;
 
   position: relative;
