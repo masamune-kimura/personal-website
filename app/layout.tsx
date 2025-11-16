@@ -21,7 +21,7 @@ export default function RootLayout({
         <header className="site-header">
           <div className="site-header-inner">
             <div className="site-brand">
-              <span className="site-name">Masamune Kimura, MD, PhD</span>
+              <span className="site-name">Masamune Kimura, MD</span>
               <span className="site-tagline">
                 Neurologist / Epileptologist / Clinical Neurophysiologist
               </span>
