@@ -51,11 +51,26 @@ export default function EnglishHome() {
         </ul>
       </section>
 
+      {/* 追加したセクション */}
+      <section className="section">
+        <h2>Board Certifications</h2>
+        <ul>
+          <li>Board Certified Member of the Japanese Society of Internal Medicine</li>
+          <li>Dementia Support Doctor</li>
+          <li>Board Certified Neurologist (Japanese Society of Neurology)</li>
+          <li>Board Certified Stroke Specialist (The Japan Stroke Society)</li>
+          <li>
+            Diplomate of the American Board of Clinical Neurophysiology
+            (General Neurophysiology, Epilepsy Monitoring)
+          </li>
+        </ul>
+      </section>
+
       <section className="section">
         <h2>Current Projects</h2>
         <ul>
           <li>
-            Spectral slope as a biomarker of large-scale E/I balance and SOZ in
+            Spectral slope as a biomarker of E/I balance and SOZ in
             focal epilepsy
           </li>
           <li>
@@ -90,6 +105,21 @@ export default function EnglishHome() {
             Poster presentation at American Epilepsy Society (AES) 2025: “Spectral
             slope as a biomarker of E–I balance and SOZ in focal epilepsy”.
           </li>
+          <li>
+            <strong>Kimura M</strong>, Fujiwara S, Tanaka A, Omura Y, Yamashita D, Hinoda T, Sakai N, Kohara N.
+            Multiple Cerebral Hemorrhages With Microbleeds in Intravascular Large B-Cell
+            Lymphoma. <em>J Stroke Cerebrovasc Dis.</em> 2020;29(6):104798.
+          </li>
+          <li>
+            <strong>Kimura M</strong>, Fujiwara S, Kuroda H, Kanamori M, Kawamoto M. Choroid Plexitis Caused by
+            <em> Burkholderia cepacia</em> Complex after COVID-19.
+            <em> Int J Infect Dis.</em> 2024;147:107201.
+          </li>
+          <li>
+            <strong>Kimura M</strong>, Yoshimura H, Kohara N. Abnormal Movements in Bickerstaff Brainstem
+            Encephalitis Mimicking Anti-N-Methyl-D-Aspartate Receptor Encephalitis.
+            <em> JAMA Neurol.</em> 2021;78(9):1149.
+          </li>
         </ul>
       </section>
 
@@ -101,7 +131,7 @@ export default function EnglishHome() {
         </p>
         <p>
           Email:{" "}
-          <a href="mailto:xxxxx@xx.ac.jp">xxxxx@xx.ac.jp</a>
+          <a href="mailto:sumthing1004@gmail.com">xxxxx@xx.ac.jp</a>
         </p>
       </section>
     </>
