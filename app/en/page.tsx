@@ -131,7 +131,7 @@ export default function EnglishHome() {
         </p>
         <p>
           Email:{" "}
-          <a href="mailto:sumthing1004@gmail.com">xxxxx@xx.ac.jp</a>
+          <a href="mailto:sumthing1004@gmail.com">mailto:sumthing1004@gmail.com</a>
         </p>
       </section>
     </>
