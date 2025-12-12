@@ -17,7 +17,7 @@ export default function JapaneseHome() {
         <ul>
           <li>てんかん（特に難治性焦点てんかん）の診断と治療</li>
           <li>頭蓋内脳波（ECoG・深部電極）を用いたてんかん焦点同定</li>
-          <li>スペクトルスロープ・非周期成分を指標とした興奮・抑制バランス（E/I）の評価</li>
+          <li>非周期成分を指標とした興奮・抑制バランス（E/I）の評価</li>
           <li>高周波活動（HFOs）や CCEP を用いた機能結合・てんかんネットワーク解析</li>
         </ul>
         <div className="badge-list">
@@ -69,7 +69,7 @@ export default function JapaneseHome() {
         <h2>研究テーマ</h2>
         <ul>
           <li>
-            スペクトログラムを用いた興奮・抑制バランス（E/I）と発作起始域の関連解析
+            非周期性成分を指標とした興奮・抑制バランス（E/I）と発作起始域の関連解析
           </li>
           <li>
             頭蓋内脳波・高周波活動・CCEP を統合したてんかん焦点推定アルゴリズムの開発
